@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1955F41FF6EE27003B4EBA /* IOSlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F1955F31FF6EE27003B4EBA /* IOSlogo.jpg */; };
+		4F1955FA1FF707FE003B4EBA /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F1955F91FF707FE003B4EBA /* Background.jpg */; };
+		4FAFFCDD1FF556F900DDB4B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFFCDC1FF556F900DDB4B4 /* AppDelegate.swift */; };
+		4FAFFCDF1FF556F900DDB4B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFFCDE1FF556F900DDB4B4 /* ViewController.swift */; };
+		4FAFFCE21FF556F900DDB4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAFFCE01FF556F900DDB4B4 /* Main.storyboard */; };
+		4FAFFCE41FF556F900DDB4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FAFFCE31FF556F900DDB4B4 /* Assets.xcassets */; };
+		4FAFFCE71FF556F900DDB4B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAFFCE51FF556F900DDB4B4 /* LaunchScreen.storyboard */; };
+		4FAFFCF21FF556F900DDB4B4 /* VisitNepalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFFCF11FF556F900DDB4B4 /* VisitNepalTests.swift */; };
+		4FAFFCFD1FF556F900DDB4B4 /* VisitNepalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFFCFC1FF556F900DDB4B4 /* VisitNepalUITests.swift */; };
+		4FAFFD0B1FF55D4F00DDB4B4 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFFD0A1FF55D4F00DDB4B4 /* CustomTableViewCell.swift */; };
+		4FF9F3FF1FF6A2C4001A50C2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9F3FE1FF6A2C4001A50C2 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FAFFCEE1FF556F900DDB4B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FAFFCD11FF556F900DDB4B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FAFFCD81FF556F900DDB4B4;
+			remoteInfo = VisitNepal;
+		};
+		4FAFFCF91FF556F900DDB4B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FAFFCD11FF556F900DDB4B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FAFFCD81FF556F900DDB4B4;
+			remoteInfo = VisitNepal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F1955F31FF6EE27003B4EBA /* IOSlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IOSlogo.jpg; sourceTree = "<group>"; };
+		4F1955F91FF707FE003B4EBA /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Background.jpg; path = ../../../Background.jpg; sourceTree = "<group>"; };
+		4FAFFCD91FF556F900DDB4B4 /* VisitNepal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisitNepal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAFFCDC1FF556F900DDB4B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FAFFCDE1FF556F900DDB4B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FAFFCE11FF556F900DDB4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FAFFCE31FF556F900DDB4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FAFFCE61FF556F900DDB4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FAFFCE81FF556F900DDB4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAFFCED1FF556F900DDB4B4 /* VisitNepalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitNepalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAFFCF11FF556F900DDB4B4 /* VisitNepalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitNepalTests.swift; sourceTree = "<group>"; };
+		4FAFFCF31FF556F900DDB4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAFFCF81FF556F900DDB4B4 /* VisitNepalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitNepalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAFFCFC1FF556F900DDB4B4 /* VisitNepalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitNepalUITests.swift; sourceTree = "<group>"; };
+		4FAFFCFE1FF556F900DDB4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAFFD0A1FF55D4F00DDB4B4 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		4FF9F3FE1FF6A2C4001A50C2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FAFFCD61FF556F900DDB4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAFFCEA1FF556F900DDB4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAFFCF51FF556F900DDB4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FAFFCD01FF556F900DDB4B4 = {
+			isa = PBXGroup;
+			children = (
+				4FAFFCDB1FF556F900DDB4B4 /* VisitNepal */,
+				4FAFFCF01FF556F900DDB4B4 /* VisitNepalTests */,
+				4FAFFCFB1FF556F900DDB4B4 /* VisitNepalUITests */,
+				4FAFFCDA1FF556F900DDB4B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FAFFCDA1FF556F900DDB4B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFFCD91FF556F900DDB4B4 /* VisitNepal.app */,
+				4FAFFCED1FF556F900DDB4B4 /* VisitNepalTests.xctest */,
+				4FAFFCF81FF556F900DDB4B4 /* VisitNepalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FAFFCDB1FF556F900DDB4B4 /* VisitNepal */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFFCDC1FF556F900DDB4B4 /* AppDelegate.swift */,
+				4FAFFCDE1FF556F900DDB4B4 /* ViewController.swift */,
+				4FAFFD0A1FF55D4F00DDB4B4 /* CustomTableViewCell.swift */,
+				4FF9F3FE1FF6A2C4001A50C2 /* DetailViewController.swift */,
+				4FAFFCE01FF556F900DDB4B4 /* Main.storyboard */,
+				4FAFFCE31FF556F900DDB4B4 /* Assets.xcassets */,
+				4FAFFCE51FF556F900DDB4B4 /* LaunchScreen.storyboard */,
+				4F1955F91FF707FE003B4EBA /* Background.jpg */,
+				4F1955F31FF6EE27003B4EBA /* IOSlogo.jpg */,
+				4FAFFCE81FF556F900DDB4B4 /* Info.plist */,
+			);
+			path = VisitNepal;
+			sourceTree = "<group>";
+		};
+		4FAFFCF01FF556F900DDB4B4 /* VisitNepalTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFFCF11FF556F900DDB4B4 /* VisitNepalTests.swift */,
+				4FAFFCF31FF556F900DDB4B4 /* Info.plist */,
+			);
+			path = VisitNepalTests;
+			sourceTree = "<group>";
+		};
+		4FAFFCFB1FF556F900DDB4B4 /* VisitNepalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFFCFC1FF556F900DDB4B4 /* VisitNepalUITests.swift */,
+				4FAFFCFE1FF556F900DDB4B4 /* Info.plist */,
+			);
+			path = VisitNepalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FAFFCD81FF556F900DDB4B4 /* VisitNepal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAFFD011FF556F900DDB4B4 /* Build configuration list for PBXNativeTarget "VisitNepal" */;
+			buildPhases = (
+				4FAFFCD51FF556F900DDB4B4 /* Sources */,
+				4FAFFCD61FF556F900DDB4B4 /* Frameworks */,
+				4FAFFCD71FF556F900DDB4B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisitNepal;
+			productName = VisitNepal;
+			productReference = 4FAFFCD91FF556F900DDB4B4 /* VisitNepal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FAFFCEC1FF556F900DDB4B4 /* VisitNepalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAFFD041FF556F900DDB4B4 /* Build configuration list for PBXNativeTarget "VisitNepalTests" */;
+			buildPhases = (
+				4FAFFCE91FF556F900DDB4B4 /* Sources */,
+				4FAFFCEA1FF556F900DDB4B4 /* Frameworks */,
+				4FAFFCEB1FF556F900DDB4B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FAFFCEF1FF556F900DDB4B4 /* PBXTargetDependency */,
+			);
+			name = VisitNepalTests;
+			productName = VisitNepalTests;
+			productReference = 4FAFFCED1FF556F900DDB4B4 /* VisitNepalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FAFFCF71FF556F900DDB4B4 /* VisitNepalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAFFD071FF556F900DDB4B4 /* Build configuration list for PBXNativeTarget "VisitNepalUITests" */;
+			buildPhases = (
+				4FAFFCF41FF556F900DDB4B4 /* Sources */,
+				4FAFFCF51FF556F900DDB4B4 /* Frameworks */,
+				4FAFFCF61FF556F900DDB4B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FAFFCFA1FF556F900DDB4B4 /* PBXTargetDependency */,
+			);
+			name = VisitNepalUITests;
+			productName = VisitNepalUITests;
+			productReference = 4FAFFCF81FF556F900DDB4B4 /* VisitNepalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FAFFCD11FF556F900DDB4B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Rabin;
+				TargetAttributes = {
+					4FAFFCD81FF556F900DDB4B4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4FAFFCEC1FF556F900DDB4B4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FAFFCD81FF556F900DDB4B4;
+					};
+					4FAFFCF71FF556F900DDB4B4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FAFFCD81FF556F900DDB4B4;
+					};
+				};
+			};
+			buildConfigurationList = 4FAFFCD41FF556F900DDB4B4 /* Build configuration list for PBXProject "VisitNepal" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FAFFCD01FF556F900DDB4B4;
+			productRefGroup = 4FAFFCDA1FF556F900DDB4B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FAFFCD81FF556F900DDB4B4 /* VisitNepal */,
+				4FAFFCEC1FF556F900DDB4B4 /* VisitNepalTests */,
+				4FAFFCF71FF556F900DDB4B4 /* VisitNepalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FAFFCD71FF556F900DDB4B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAFFCE71FF556F900DDB4B4 /* LaunchScreen.storyboard in Resources */,
+				4F1955F41FF6EE27003B4EBA /* IOSlogo.jpg in Resources */,
+				4F1955FA1FF707FE003B4EBA /* Background.jpg in Resources */,
+				4FAFFCE41FF556F900DDB4B4 /* Assets.xcassets in Resources */,
+				4FAFFCE21FF556F900DDB4B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAFFCEB1FF556F900DDB4B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAFFCF61FF556F900DDB4B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FAFFCD51FF556F900DDB4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAFFD0B1FF55D4F00DDB4B4 /* CustomTableViewCell.swift in Sources */,
+				4FAFFCDF1FF556F900DDB4B4 /* ViewController.swift in Sources */,
+				4FAFFCDD1FF556F900DDB4B4 /* AppDelegate.swift in Sources */,
+				4FF9F3FF1FF6A2C4001A50C2 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAFFCE91FF556F900DDB4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAFFCF21FF556F900DDB4B4 /* VisitNepalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAFFCF41FF556F900DDB4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAFFCFD1FF556F900DDB4B4 /* VisitNepalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FAFFCEF1FF556F900DDB4B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FAFFCD81FF556F900DDB4B4 /* VisitNepal */;
+			targetProxy = 4FAFFCEE1FF556F900DDB4B4 /* PBXContainerItemProxy */;
+		};
+		4FAFFCFA1FF556F900DDB4B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FAFFCD81FF556F900DDB4B4 /* VisitNepal */;
+			targetProxy = 4FAFFCF91FF556F900DDB4B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FAFFCE01FF556F900DDB4B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FAFFCE11FF556F900DDB4B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FAFFCE51FF556F900DDB4B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FAFFCE61FF556F900DDB4B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FAFFCFF1FF556F900DDB4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FAFFD001FF556F900DDB4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FAFFD021FF556F900DDB4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K6HV5YWXC;
+				INFOPLIST_FILE = VisitNepal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ojha.rabin.VisitNepal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FAFFD031FF556F900DDB4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K6HV5YWXC;
+				INFOPLIST_FILE = VisitNepal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ojha.rabin.VisitNepal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FAFFD051FF556F900DDB4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K6HV5YWXC;
+				INFOPLIST_FILE = VisitNepalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ojha.rabin.VisitNepalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisitNepal.app/VisitNepal";
+			};
+			name = Debug;
+		};
+		4FAFFD061FF556F900DDB4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K6HV5YWXC;
+				INFOPLIST_FILE = VisitNepalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ojha.rabin.VisitNepalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisitNepal.app/VisitNepal";
+			};
+			name = Release;
+		};
+		4FAFFD081FF556F900DDB4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K6HV5YWXC;
+				INFOPLIST_FILE = VisitNepalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ojha.rabin.VisitNepalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisitNepal;
+			};
+			name = Debug;
+		};
+		4FAFFD091FF556F900DDB4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K6HV5YWXC;
+				INFOPLIST_FILE = VisitNepalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ojha.rabin.VisitNepalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisitNepal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FAFFCD41FF556F900DDB4B4 /* Build configuration list for PBXProject "VisitNepal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAFFCFF1FF556F900DDB4B4 /* Debug */,
+				4FAFFD001FF556F900DDB4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAFFD011FF556F900DDB4B4 /* Build configuration list for PBXNativeTarget "VisitNepal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAFFD021FF556F900DDB4B4 /* Debug */,
+				4FAFFD031FF556F900DDB4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAFFD041FF556F900DDB4B4 /* Build configuration list for PBXNativeTarget "VisitNepalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAFFD051FF556F900DDB4B4 /* Debug */,
+				4FAFFD061FF556F900DDB4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAFFD071FF556F900DDB4B4 /* Build configuration list for PBXNativeTarget "VisitNepalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAFFD081FF556F900DDB4B4 /* Debug */,
+				4FAFFD091FF556F900DDB4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FAFFCD11FF556F900DDB4B4 /* Project object */;
+}
