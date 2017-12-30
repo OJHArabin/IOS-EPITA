@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4F1955F41FF6EE27003B4EBA /* IOSlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F1955F31FF6EE27003B4EBA /* IOSlogo.jpg */; };
-		4F1955FA1FF707FE003B4EBA /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F1955F91FF707FE003B4EBA /* Background.jpg */; };
 		4FAFFCDD1FF556F900DDB4B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFFCDC1FF556F900DDB4B4 /* AppDelegate.swift */; };
 		4FAFFCDF1FF556F900DDB4B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAFFCDE1FF556F900DDB4B4 /* ViewController.swift */; };
 		4FAFFCE21FF556F900DDB4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAFFCE01FF556F900DDB4B4 /* Main.storyboard */; };
@@ -39,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		4F1955F31FF6EE27003B4EBA /* IOSlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IOSlogo.jpg; sourceTree = "<group>"; };
-		4F1955F91FF707FE003B4EBA /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Background.jpg; path = ../../../Background.jpg; sourceTree = "<group>"; };
 		4FAFFCD91FF556F900DDB4B4 /* VisitNepal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisitNepal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FAFFCDC1FF556F900DDB4B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FAFFCDE1FF556F900DDB4B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 				4FAFFCE01FF556F900DDB4B4 /* Main.storyboard */,
 				4FAFFCE31FF556F900DDB4B4 /* Assets.xcassets */,
 				4FAFFCE51FF556F900DDB4B4 /* LaunchScreen.storyboard */,
-				4F1955F91FF707FE003B4EBA /* Background.jpg */,
 				4F1955F31FF6EE27003B4EBA /* IOSlogo.jpg */,
 				4FAFFCE81FF556F900DDB4B4 /* Info.plist */,
 			);
@@ -246,7 +243,6 @@
 			files = (
 				4FAFFCE71FF556F900DDB4B4 /* LaunchScreen.storyboard in Resources */,
 				4F1955F41FF6EE27003B4EBA /* IOSlogo.jpg in Resources */,
-				4F1955FA1FF707FE003B4EBA /* Background.jpg in Resources */,
 				4FAFFCE41FF556F900DDB4B4 /* Assets.xcassets in Resources */,
 				4FAFFCE21FF556F900DDB4B4 /* Main.storyboard in Resources */,
 			);

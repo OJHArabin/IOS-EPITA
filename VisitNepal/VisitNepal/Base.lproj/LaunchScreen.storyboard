@@ -18,9 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NXN-Rf-XKD">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Rabin Kumar Ojha" borderStyle="roundedRect" minimumFontSize="17" background="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Qp4-DZ-0z9">
                                 <rect key="frame" x="231" y="637" width="144" height="30"/>
                                 <color key="textColor" red="0.96979396840777199" green="0.070037240277294938" blue="0.19234262722655207" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -33,14 +30,10 @@
                                 <color key="backgroundColor" red="0.28246394872463876" green="0.2832385417269605" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.080477438220011507" green="0.6175664338682082" blue="0.90954906088082899" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Qp4-DZ-0z9" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2b2-Ph-vff"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qp4-DZ-0z9" secondAttribute="trailing" id="4ho-xi-Hr1"/>
-                            <constraint firstItem="NXN-Rf-XKD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="VRf-Qd-nTb"/>
-                            <constraint firstItem="NXN-Rf-XKD" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="bDb-5f-u6C"/>
-                            <constraint firstItem="NXN-Rf-XKD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jaJ-Qb-9un"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NXN-Rf-XKD" secondAttribute="trailing" id="kWm-dL-vUo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -51,7 +44,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Background.jpg" width="1024" height="640"/>
         <image name="IOSlogo.jpg" width="500" height="332"/>
         <image name="background.jpg" width="2880" height="1800"/>
     </resources>
