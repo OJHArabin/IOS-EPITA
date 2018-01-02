@@ -37,7 +37,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mtg-vE-UEc">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="sectionIndexBackgroundColor" red="0.10091481778138098" green="0.30411674114209408" blue="0.91584358808290156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.14623088449967703" green="0.91584358808290156" blue="0.90331664262752565" alpha="0.52233714788732399" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="customeCell" rowHeight="100" id="yJE-8w-scc" customClass="CustomTableViewCell" customModule="VisitNepal" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
@@ -59,7 +59,7 @@
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lumbini" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thL-2g-WnX">
                                                             <rect key="frame" x="88" y="8" width="259" height="63.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                                            <color key="textColor" red="0.030748465470990353" green="0.30672127054042553" blue="0.66666668653488159" alpha="0.51587257922535212" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="textColor" red="0.038761237897538534" green="0.42825308012419111" blue="0.95093239249343076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
@@ -96,6 +96,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.99501928620470304" blue="0.99284571226352414" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -137,7 +138,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" highlightedImage="TilichoLake" translatesAutoresizingMaskIntoConstraints="NO" id="Hiu-fO-ADu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TilichoLake" highlightedImage="TilichoLake" translatesAutoresizingMaskIntoConstraints="NO" id="Hiu-fO-ADu">
                                 <rect key="frame" x="0.0" y="133" width="375" height="352"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="352" id="rcC-kt-XKb"/>
@@ -150,7 +151,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.84283921632124348" green="0.84283921632124348" blue="0.84283921632124348" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Org-sV-fd7" firstAttribute="leading" secondItem="iav-Uj-nnK" secondAttribute="leading" constant="101" id="7YU-MC-qv4"/>
                             <constraint firstItem="Hiu-fO-ADu" firstAttribute="top" secondItem="WQ9-3X-V27" secondAttribute="top" constant="133" id="9st-UH-CiY"/>

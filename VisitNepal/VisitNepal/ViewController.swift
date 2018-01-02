@@ -33,12 +33,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         let cell = tableView.dequeueReusableCell(withIdentifier: "customeCell") as! CustomTableViewCell
         
         
-        cell.cellView.layer.cornerRadius = cell.cellView.frame.height / 2
+        
         
         cell.placelbl.text=places[indexPath.row]
         cell.placeImage.image=UIImage(named: places[indexPath.row])
         
-        cell.placeImage.layer.cornerRadius = cell.placeImage.frame.height / 2
         return cell
         
     }

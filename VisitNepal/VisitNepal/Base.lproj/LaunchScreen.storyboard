@@ -18,22 +18,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Rabin Kumar Ojha" borderStyle="roundedRect" minimumFontSize="17" background="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Qp4-DZ-0z9">
-                                <rect key="frame" x="231" y="637" width="144" height="30"/>
-                                <color key="textColor" red="0.96979396840777199" green="0.070037240277294938" blue="0.19234262722655207" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IOSlogo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Znz-ie-6aV">
                                 <rect key="frame" x="138" y="288" width="99" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.28246394872463876" green="0.2832385417269605" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visit Nepal" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tM7-Lp-Qdp">
+                                <rect key="frame" x="129" y="143" width="117" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="22"/>
+                                <color key="textColor" red="0.18466519366666095" green="0.64752671632124348" blue="0.26968404262961382" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Rabin Kumar Ojha" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" background="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Qp4-DZ-0z9">
+                                <rect key="frame" x="115" y="637" width="141" height="30"/>
+                                <color key="textColor" red="0.96979396840777199" green="0.070037240277294938" blue="0.19234262722655207" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.080477438220011507" green="0.6175664338682082" blue="0.90954906088082899" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.80274449481865284" green="0.79978810900695263" blue="0.79091895157185199" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Qp4-DZ-0z9" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2b2-Ph-vff"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qp4-DZ-0z9" secondAttribute="trailing" id="4ho-xi-Hr1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qp4-DZ-0z9" secondAttribute="trailing" constant="119" id="Ha4-RO-DYx"/>
+                            <constraint firstItem="tM7-Lp-Qdp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="123" id="aa6-1Q-5Nt"/>
+                            <constraint firstItem="Qp4-DZ-0z9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="115" id="fzm-ca-Y4i"/>
+                            <constraint firstItem="Qp4-DZ-0z9" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="jta-Ex-8D4"/>
+                            <constraint firstItem="tM7-Lp-Qdp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="v1x-UM-RWw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tM7-Lp-Qdp" secondAttribute="trailing" constant="129" id="xuo-FG-aon"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
